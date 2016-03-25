@@ -1,0 +1,35 @@
+#wrapp {
+	margin: 0 auto;
+	width: 500px;
+	height: auto;
+	padding: 5px;
+	border: 1px solid #566;
+}
+
+#bm{
+	display: none;
+	float: left;
+}
+
+#fiat{
+	display: none;
+}
+
+#go{
+	display: none;
+}
+
+input[type="submit"]{
+	background: blue;
+	color: white;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.clearfix{
+	clear: both;
+}
+
+select[name="bajsevi"]{
+	margin-top: 20px;
+}
