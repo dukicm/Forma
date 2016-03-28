@@ -9,7 +9,7 @@
 	
 <div id="wrapp">
 	<h1>Forma</h1>
-	<form action="register.php" method="post" id="mojaForma">
+	<form action="register.php" method="post">
 		<label for="i">Ime
 			<input type="text" name="ime" placeholder="Ime" id="i">
 		</label><br>
@@ -21,7 +21,9 @@
 		</label><br><br>
 
 <!--prva tri polja za biranje-->
-		<label for="bmw">Izaberite marku automobila:
+ 	<fieldset>
+ 		<legend>Izaberite marku automobila:</legend>
+		<label for="bmw">
 			<br>
 			<input type="radio" name="auti" id="bmw" value="bmw">BMW<br>
 		</label>
@@ -31,6 +33,7 @@
 		<label for="golf">
 			<input type="radio" name="auti" id="golf" value="golf">GOLF<br>
 		</label>
+	</fieldset>
 <!--prva tri polja za biranje-->
 
 <!--ovi ce se pojaviti kad kliknem gore-->		
@@ -96,14 +99,6 @@
 		<br>
 		<input type="submit" value="Submit">
 	</form>
-
-	<select required name="bajsevi" id="mojaForma">
-		<option value="">None</option>
-		<option value="capirolo">Capriolo</option>
-		<option value="scott">Scott</option>
-		<option value="ktm">KTM</option>
-		<option value="bmx">BMX</option>
-	</select>
 </div>
 	<script src="js/main.js"></script>
 </body>
