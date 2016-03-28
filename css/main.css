@@ -33,3 +33,7 @@ input[type="submit"]{
 select[name="bajsevi"]{
 	margin-top: 20px;
 }
+
+p {
+	color: red;
+}
