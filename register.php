@@ -6,15 +6,23 @@
 </head>
 <body>
 <?php
-	echo $_POST['ime'];
-	echo $_POST['prezime'];
-	echo $_POST['email'];
-	echo $_POST['auti'];
-	echo $_POST['modelibmw'];
-	echo $_POST['modelifiat'];
-	echo $_POST['modeligolf'];
-	echo $_POST['motori'];
-	echo $_POST['bajsevi'];
+	$x = $_POST['ime'];
+	$y = $_POST['prezime'];
+	$z = $_POST['email'];
+	$a = $_POST['auti'];
+	$b = $_POST['modelibmw'];
+	$c = $_POST['modelifiat'];
+	$d = $_POST['modeligolf'];
+	$e = $_POST['motori'];
+
+	echo "<h1>$x</h1>";
+	echo "<h1>$y</h1>";
+	echo "<h1>$z</h1>";
+	echo "<h1>$a</h1>";
+	echo "<h1>$b</h1>";
+	echo "<h1>$c</h1>";
+	echo "<h1>$d</h1>";
+	echo "<h1>$e</h1>";
 ?>
 </body>
 </html>
